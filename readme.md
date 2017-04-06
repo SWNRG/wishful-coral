@@ -45,7 +45,9 @@ The first you need to run is the global controller. Run ./gcstart. It needs the 
 If the global controller hangs, the most common reasons are;
 • No connection with node-red
 • No connection with Java server
+
 • No correct configuration of cooja nodes, i.e. you didn’t execute correctly the connection of the cooja ports
+
 • You didn’t start cooja (you have it on pause)
 After the global controller starts, it will keep on printing messages on the terminal. It also creates several detailed log files in the folder ../logs. Check them carefuly.
 

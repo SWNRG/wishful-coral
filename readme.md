@@ -45,11 +45,12 @@ The first you need to run is the global controller. Run ./gcstart. It needs the 
 •	Read the nodes.yaml file. Be careful: you need to declare as many Ip addresses as the nodes you are going to connect from cooja (if cooja has 5 nodes, you need five IP addresses, i.e. 127.0.0.1-5)
 •	It will wait for ever for ALL the above. Be careful, you need to run the number of nodes described in nodes.yaml
 If the global controller hangs, the most common reasons are;
-•	No connection with node-red
-•	No connection with Java server
-•	No correct configuration of cooja nodes, i.e. you didn’t execute correctly the connection of the cooja ports
-•	You didn’t start cooja (you have it on pause)
-After the global controller starts, it will keep on printing messages on the terminal. It also creates several detailed log files in the folder ../logs. Check them carefuly
+	No connection with node-red
+	No connection with Java server
+	No correct configuration of cooja nodes, i.e. you didn’t execute correctly the connection of the cooja ports
+	You didn’t start cooja (you have it on pause)
+After the global controller starts, it will keep on printing messages on the terminal. It also creates several detailed log files in the folder ../logs. Check them carefuly.
+
 Send questions to georgevio@gmail.com
 Good luck
 

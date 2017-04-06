@@ -40,6 +40,7 @@ Run sudo ./createSerialPortSoftLinks to create the correct port links between wi
 You need one terminal for EVERY cooja emulated node. In every terminal, run ./prepareWishFulTerminal. It will take you to the 3-entitiles directory of coral. Then run the link for the wishful node (e.g. ./a1, or ./gcstart)
 
 The first you need to run is the global controller. Run ./gcstart. It needs the following:
+
 •	Connection with the Java server
 •	Connection with node-red
 •	Read the nodes.yaml file. Be careful: you need to declare as many Ip addresses as the nodes you are going to connect from cooja (if cooja has 5 nodes, you need five IP addresses, i.e. 127.0.0.1-5)
